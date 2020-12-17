@@ -1,7 +1,12 @@
 # fibonacci_sequence
 generating a fibonacci sequence in c++/cpp and getting the values with script
 
-## installation
+## quick start
+- download latest binary
+- with '''./fibo_line_999999999''' can start outputting
+- (OPTIONAL: use the bash scripts in this directory to measure time and output to file)
+
+## compile from source
 - clone this repo
 - make sure you have make tools installed
 - make fibo
