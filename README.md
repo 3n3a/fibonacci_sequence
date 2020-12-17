@@ -2,7 +2,7 @@
 generating a fibonacci sequence in c++/cpp and getting the values with script
 
 ## quick start
-- download latest binary
+- download [latest binary](https://github.com/3n3a/fibonacci_sequence/releases/tag/v0.0.1)
 - with '''./fibo_line_999999999''' can start outputting
 - (OPTIONAL: use the bash scripts in this directory to measure time and output to file)
 
