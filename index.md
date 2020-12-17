@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# fibonacci_sequence
+generating a fibonacci sequence in c++/cpp and getting the values with script
 
-You can use the [editor on GitHub](https://github.com/3n3a/fibonacci_sequence/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## quick start
+- download [latest binary](https://github.com/3n3a/fibonacci_sequence/releases/tag/v0.0.1)
+- with '''./fibo_line_999999999''' can start outputting
+- (OPTIONAL: use the bash scripts in this directory to measure time and output to file)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## compile from source
+- clone this repo
+- make sure you have make tools installed
+- make fibo
+- measure_fibo_line_999999999.sh
 
-### Markdown
+## the txt file you get...
+- will be around 19GB 
+- takes around 10min to generate, with intel i7-3300, and cheap ssd
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/3n3a/fibonacci_sequence/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![image shows how long it took](screenshot.png)
