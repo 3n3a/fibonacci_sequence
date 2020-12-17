@@ -11,4 +11,4 @@ generating a fibonacci sequence in c++/cpp and getting the values with script
 - will be around 19GB 
 - takes around 10min to generate, with intel i7-3300, and cheap ssd
 
-![image shows how long it took](images/screenshot.png)
+![image shows how long it took](screenshot.png)
