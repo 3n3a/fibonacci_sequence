@@ -2,7 +2,8 @@
 
 ## Fibonacci Sequences with Binets Formula
 while analyzing the results from the first program, that supposedly outputs the first 999999999 fibonacci numbers, i found out, that it's not the real deal, what is actually outputted, that's why I looked into **binets formula** (Source: [maths.surrey.ac.uk](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html)) and found that it works in a c script up to the 1474-th term in my local dev shell, a [list of the values](./fibo_list_1474.txt) can be found in this repo
-The accompanying C program to generate can be found [here]() aswell 
+
+The accompanying C program to generate can be found [here](./fibo_line_1474.c) aswell 
 
 ---
 
