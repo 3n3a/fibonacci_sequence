@@ -1,4 +1,12 @@
 # fibonacci_sequence
+
+## Fibonacci Sequences with Binets Formula
+while analyzing the results from the first program, that supposedly outputs the first 999999999 fibonacci numbers, i found out, that it's not the real deal, what is actually outputted, that's why I looked into **binets formula** (Source: [maths.surrey.ac.uk](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html)) and found that it works in a c script up to the 1474-th term in my local dev shell, a [list of the values](./fibo_list_1474.txt) can be found in this repo
+The accompanying C program to generate can be found [here]() aswell 
+
+---
+
+# original method (doesn't work for some reason)
 generating a fibonacci sequence in c++/cpp and getting the values with script
 
 ## quick start
@@ -17,6 +25,3 @@ generating a fibonacci sequence in c++/cpp and getting the values with script
 - takes around 10min to generate, with intel i7-3300, and cheap ssd
 
 ![image shows how long it took](screenshot.png)
-
-### -- also interesting ---
-while analyzing the results from the first program, that supposedly outputs the first 999999999 fibonacci numbers, i found out, that it's not the real deal, that's outputted, that's why I looked into **binets formula** (Source: [maths.surrey.ac.uk](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html)) and found that it works in a c script up to the 1474-th term in my local dev shell, a [list of the values](./fibo_list_1474.txt) can be found in this repo
