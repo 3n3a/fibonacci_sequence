@@ -1,28 +1,30 @@
-# fibonacci_sequence
+# Fibonacci Sequence Generator
 
-## Fibonacci Sequences with Binets Formula
-while analyzing the results from the first program, that supposedly outputs the first 999999999 fibonacci numbers, i found out, that it's not the real deal, what is actually outputted, that's why I looked into **binets formula** (Source: [maths.surrey.ac.uk](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html)) and found that it works in a c script up to the 1474-th term in my local dev shell, a [list of the values](./fibo_list_1474.txt) can be found in this repo
+My Goal is to implement one or more algorithms, which calculate the fibonacci sequence or the n-th digit of this sequence.
 
-The accompanying C program to generate can be found [here](./fibo_line_1474.c) aswell 
+## Textbook Algorithm
 
----
+While researching I found the following _TextBook Algorithm_ Online.
 
-# original method (doesn't work for some reason)
-generating a fibonacci sequence in c++/cpp and getting the values with script
+```c
+# naive fibonacci 
+iterations = 0
+def fib(n):
+    global iterations
+    
+    if n == 0:
+        return 0
+    elif n == 1:
+        iterations+=1
+        return 1
+    else:
+        iterations+=1
+        return fib(n-1) + fib(n-2)
 
-## quick start
-- download [latest binary](https://github.com/3n3a/fibonacci_sequence/releases/tag/v0.0.1)
-- with ```./fibo_line_999999999``` can start outputting
-- (OPTIONAL: use the bash scripts in this directory to measure time and output to file)
+print("sum:", fib(40)) # sum: 102334155
+print("total iterations", iterations)  # total iterations 267914295
+```
 
-## compile from source
-- clone this repo
-- make sure you have make tools installed
-- make fibo
-- measure_fibo_line_999999999.sh
+Mentioned in the article is, that this algorithm gets slower the bigger N.
 
-## the txt file you get...
-- will be around 19GB 
-- takes around 10min to generate, with intel i7-3300, and cheap ssd
-
-![image shows how long it took](screenshot.png)
+Because 
