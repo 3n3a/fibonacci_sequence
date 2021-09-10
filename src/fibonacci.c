@@ -6,6 +6,7 @@
 #include "fibonacci.h"
 
 int main() {
-    printf("Hello Again %d", fibo(3));
+    printf("Fibonacci Textbook Algo: %d\n", fibonacci_textbook(40));
+    printf("Fibonacci Memorise Last Two in Sequence: %d\n", fibonacci_memoriselasttwo(40));
     return 0;
 }
